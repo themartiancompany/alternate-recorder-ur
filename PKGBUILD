@@ -38,6 +38,9 @@ optdepends=(
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   optdepends+=(
+    'android-recorder: for recording from this device screen.'
+    'android-camera-recorder: for recording from this device camera'
+    'android-remote-camera-recorder: for recording from the camera of another device'
   )
 makedepends=(
   make
