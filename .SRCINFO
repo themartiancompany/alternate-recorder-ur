@@ -1,0 +1,16 @@
+pkgbase = alternate-recorder
+	pkgdesc = Recorg using two recorders.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/alternate-recorder
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-remote-camera
+	depends = record-tools
+	source = alternate-recorder-4c4209c22067ec422882a80eaad4569ca76a5b7b.zip::https://github.com/themartiancompany/alternate-recorder/archive/4c4209c22067ec422882a80eaad4569ca76a5b7b.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = d503e715b71b773480a8578428dd77d9edfc12401bc6fb60c1885cdc626fcba7
+
+pkgname = alternate-recorder
